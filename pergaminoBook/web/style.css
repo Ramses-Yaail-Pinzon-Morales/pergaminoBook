@@ -1,0 +1,294 @@
+body{
+    background-position-x: 15%;
+}
+
+::-webkit-scrollbar {
+    width: 15px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: rgb(146,100,0);
+    border-radius: 12px;
+}
+
+a:link, a:active{
+color:white;
+background-color:transparent;
+text-decoration: none;
+}
+
+a:visited{
+color:silver;
+background-color:transparent;
+text-decoration: none;
+}
+
+a:hover{
+color:gold;
+background-color:transparent;
+text-decoration: none;
+}
+
+#lblCorreoTxt{
+color: white;
+font-size: 12px;
+padding-top: 10;
+}
+
+.listadoNotas{
+ list-style-type: none;
+ padding: 10;
+ overflow: hidden;
+ margin: -10;
+}
+
+.listaNotas{
+ float: left;
+ padding-left: 10;
+}
+
+.papeleta{
+ background-color: white;
+ padding: 12px;
+ margin-right: 65%;
+ margin-top: 2%;
+ position: relative;
+ animation-name: notas;
+ animation-duration: 15s;
+ animation-iteration-count: infinite;
+}
+
+.nota{
+ background-color: transparent;
+ text-align: justify;
+}
+
+@keyframes notas {
+    0% {background-color: rgb(244,249,253); left: 0px; top: 0px;}
+    25% {background-color: rgb(219,155,71); left: 350px; top 0px;}
+    50% {background-color: rgb(205,133,71); left: 700px; top: 0px;}
+    75% {background-color: rgb(219,155,71); left: 350px; top 0px;}
+    100% {background-color: rgb(244,249,253); left: 0px; top: 0px;}
+}
+
+.button{
+ border: 3px solid silver;
+ border-radius: 15px;
+ font-size: 18px;
+ font-family: Copperplate;
+ background-color: black;
+ color: white;
+ cursor: pointer;
+ margin-top: 3;
+}
+
+.button:hover{
+ border: 3px solid brown;
+}
+
+.box{
+ border-radius: 15px;
+ font-size: 18px;
+ font-family: Copperplate;
+ border-bottom: brown solid;
+ border-right: hidden;
+ border-left: hidden;
+ border-top: hidden;
+}
+
+.box:focus{
+ border-radius: 15px;
+ font-size: 18px;
+ font-family: Copperplate;
+ border-bottom: brown solid;
+ border-right: hidden;
+ border-left: hidden;
+ border-top: hidden;
+ outline: none;
+}
+
+.lema{
+ background: transparent;
+ position: relative;
+}
+
+.dropbtn {
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+#libreria-li{
+    cursor: pointer;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+#libreria-li:hover .dropdown-content {display: block;}
+
+#libreria-li:hover .dropdown-content .dropbtn {background-color: #000000;}
+
+.dropbtn2 {
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content2 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+#Foro {
+    cursor: pointer;
+}
+
+.dropdown-content2 a:hover {background-color: #ddd;}
+
+#Foro:hover .dropdown-content2 {display: block;}
+
+#Foro:hover .dropdown-content2 .dropbtn2 {background-color: #000000;}
+
+.dropbtn3 {
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown-content3 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content3 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+#Grupo-Lect {
+    cursor: pointer;
+}
+
+.dropdown-content3 a:hover {background-color: #ddd;}
+
+#Grupo-Lect:hover .dropdown-content3 {display: block;}
+
+#Grupo-Lect:hover .dropdown-content3 .dropbtn3 {background-color: #000000;}
+
+.dropbtn4 {
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown-content4 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content4 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+#Talleres {
+    cursor: pointer;
+}
+
+.dropdown-content4 a:hover {background-color: #ddd;}
+
+#Talleres:hover .dropdown-content4 {display: block;}
+
+#Talleres:hover .dropdown-content4 .dropbtn4 {background-color: #000000;}
+
+.dropbtn5 {
+  background-color: transparent;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown-content5 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content5 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+#AudioLibros {
+    cursor: pointer;
+}
+
+.dropdown-content5 a:hover {background-color: #ddd;}
+
+#AudioLibros:hover .dropdown-content5 {display: block;}
+
+#AudioLibros:hover .dropdown-content5 .dropbtn5 {background-color: #000000;}
+

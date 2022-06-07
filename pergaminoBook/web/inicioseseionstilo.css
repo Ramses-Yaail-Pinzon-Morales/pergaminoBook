@@ -1,0 +1,46 @@
+body{
+ background-image: url('Book_464053.jpg'); 
+}
+
+.moddle{
+ border: 3px solid #bf8040;
+ border-radius: 15px;
+ width: 370px;
+ height: 480px;
+ margin-left: 60%;
+ margin-top: 2%;
+ padding: 20px;
+ background-color: #bf8040;
+ text-align: center;
+}
+
+.titulo{
+ font-size: 46px;
+ font-family: 'Tangerine', serif, bold;
+}
+
+.box{
+ font-size: 17px;
+ border-bottom: 3px solid black;
+ border-top: none;
+ border-right: none;
+ border-left: none;
+ margin-top: 25px;
+ border-radius: 15px;
+ padding: 12px;
+}
+
+.button{
+ margin-top: 25px;
+ padding: 12px 52px 12px 52px;
+ border-radius: 15px;
+ color: black;
+ background-color: white;
+ font-size: 17px;
+ border: 3px solid #bf8040;
+}
+
+.texto{
+ font-size: 46px;
+ font-family: 'Tangerine', serif, bold;
+}
